@@ -1,0 +1,113 @@
+hub:
+  server-selector:
+    # Name
+    name: "&e&l» &dServer Selector &e&l«"
+    # Material
+    material: "COMPASS"
+    # Data
+    data: 0
+    # Amount
+    amount: 1
+    # Inventory size
+    inventory-size: 27
+    # Hot bar slot
+    slot: 0
+    # Action type
+    action-type: "OPEN_SERVER_SELECTOR"
+    enabled: true
+    # Items
+    items:
+      0:
+        # Material
+        material: "DIAMOND_SWORD"
+        # Name
+        title: "&aPractice"
+        # Lore
+        lore:
+          - ""
+          - "&7This is a lore"
+          - "&7for the Practice server"
+        # Inventory slot
+        slot: 11
+        # Command
+        command: "/queue Practice"
+      1:
+        # Material
+        material: "GRASS"
+        # Name
+        title: "&aSkyBlock"
+        # Lore
+        lore:
+          - ""
+          - "&7This is a lore"
+          - "&7for the SkyBlock server"
+        # Inventory slot
+        slot: 13
+        # Command
+        command: "/queue SkyBlock"
+      2:
+        # Material
+        material: "DIAMOND_PICKAXE"
+        # Name
+        title: "&aPrison"
+        # Lore
+        lore:
+          - ""
+          - "&7This is a lore"
+          - "&7for the Prison server"
+        # Inventory slot
+        slot: 15
+        # Command
+        command: "/queue Prison"
+  ender-pearl:
+    name: "&e&l» &dEnder Pearl &e&l«"
+    material: "ENDER_PEARL"
+    data: 0
+    amount: 1
+    slot: 1
+    action-type: "ENDER_PEARL"
+    enabled: true
+  blocks:
+    name: "&e&l» &dBlocks &e&l«"
+    material: "SANDSTONE"
+    data: 0
+    amount: 64
+    slot: 4
+    action-type: "BLOCKS"
+    enabled: true
+  settings-selector:
+    name: "&e&l» &dSettings &e&l«"
+    material: "REDSTONE_COMPARATOR"
+    data: 0
+    amount: 1
+    slot: 7
+    action-type: "OPEN_SETTINGS_SELECTOR"
+    enabled: true
+  hub-selector:
+    name: "&e&l» &dHub Selector &e&l«"
+    material: "NETHER_STAR"
+    data: 0
+    amount: 1
+    inventory-size: 27
+    slot: 8
+    action-type: "OPEN_HUB_SELECTOR"
+    enabled: true
+    items:
+      0:
+        material: "DIAMOND_BLOCK"
+        title: "&aHub #1"
+        lore:
+          - ""
+          - "&7This is a lore"
+          - "&7for the Hub #1 server"
+        slot: 10
+        command: "/queue Hub-01"
+      1:
+        material: "DIAMOND_BLOCK"
+        title: "&aHub #2"
+        lore:
+          - ""
+          - "&7This is a lore"
+          - "&7for the Hub #2 server"
+        slot: 12
+        command: "/queue Hub-02"

@@ -1,0 +1,4 @@
+license-key: "LICENSE_KEY" # You can get a license key for this plugin in the Discord server
+
+servers: # All of your BungeeCord servers have to be put here
+  - "Hub"

@@ -1,0 +1,24 @@
+SCOREBOARD:
+  TITLE: "&b&lArch &7┃ &fHub"
+  LINES:
+    DEFAULT:
+      - "&8&m----------------------"
+      - "&7┃ &fOnline: &b%online%"
+      - "&7┃ &fRank: &b%rank%"
+      - "&7┃ &fPing: &b%ping%"
+      - ""
+      - "&7&oarchdev.club"
+      - "&8&m----------------------"
+    QUEUE:
+      - "&8&m----------------------"
+      - "&7┃ &fOnline: &b%online%"
+      - "&7┃ &fRank: &b%rank%"
+      - "&7┃ &fPing: &b%ping%"
+      - "&8&m----------------------"
+      - "&bQueue"
+      - "&8&m----------------------"
+      - "&7┃ &fServer: &b%queue-name%"
+      - "&7┃ &fPosition: &b%queue-position% &7/ &b%queue-size%"
+      - ""
+      - "&7&oarchdev.club"
+      - "&8&m----------------------%"

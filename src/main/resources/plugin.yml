@@ -1,0 +1,8 @@
+name: ArchHub
+version: 1.0
+author: Trixkz
+main: club.archdev.archhub.ArchHub
+
+commands:
+  spawn:
+  setspawn:
